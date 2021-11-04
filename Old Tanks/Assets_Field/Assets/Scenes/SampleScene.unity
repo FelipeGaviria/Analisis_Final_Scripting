@@ -1097,7 +1097,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 8.6
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.56
@@ -1130,10 +1130,10 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -1152,7 +1152,7 @@ Transform:
   m_LocalScale: {x: 1.0363003, y: 1.0363003, z: 1.0363}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 360.923, y: 669.705, z: 812.83203}
 --- !u!1001 &249061615
 PrefabInstance:
@@ -2793,9 +2793,9 @@ Light:
   m_CookieSize: 8.6
   m_Shadows:
     m_Type: 2
-    m_Resolution: -1
+    m_Resolution: 0
     m_CustomResolution: -1
-    m_Strength: 0.56
+    m_Strength: 0.27
     m_Bias: 0.48
     m_NormalBias: 0
     m_NearPlane: 0.1
@@ -2828,7 +2828,7 @@ Light:
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -20041,7 +20041,7 @@ Transform:
   - {fileID: 785833340}
   - {fileID: 1532100100}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1478167114
 PrefabInstance:
@@ -24142,6 +24142,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Column01
       objectReference: {fileID: 0}
+    - target: {fileID: 903432084017722790, guid: c5082a1eaa55bfe4695dba6ed0d85e65,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 903432084018080134, guid: c5082a1eaa55bfe4695dba6ed0d85e65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24217,6 +24222,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6221f2fbc7212d94cb9c069ee262d824, type: 2}
+    - target: {fileID: 903432084019981158, guid: c5082a1eaa55bfe4695dba6ed0d85e65,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5082a1eaa55bfe4695dba6ed0d85e65, type: 3}
 --- !u!4 &4778948830494158849 stripped
