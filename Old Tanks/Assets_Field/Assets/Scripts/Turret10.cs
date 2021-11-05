@@ -35,8 +35,6 @@ public class Turret10 : MonoBehaviour
         transform.eulerAngles += speedRotation * Time.deltaTime;
     }
 
-
-
     public void Shoot()
     {
         if ((Input.GetButtonDown(shoot) && ammo > 0) &&t >= 1.0f/attackspeed )

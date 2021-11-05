@@ -7,9 +7,7 @@ public class Projectile : MonoBehaviour
     [SerializeField] float duration = 5f, damage = 30f;
     [SerializeField] bool trueDamage = false;
     float t = 0;
-    void Start()
-    {
-    }
+
     void Update()
     {
         if (t >= 5f)
