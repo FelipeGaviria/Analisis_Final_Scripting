@@ -12,10 +12,7 @@ public class Projectile : MonoBehaviour
     }
     void Update()
     {
-        if (t >= 5f)
-        {
-            Destroy(gameObject);
-        }
+        if (t >= 5f) Destroy(gameObject);
         t += Time.deltaTime;
     }
     private void OnCollisionEnter(Collision collision)
