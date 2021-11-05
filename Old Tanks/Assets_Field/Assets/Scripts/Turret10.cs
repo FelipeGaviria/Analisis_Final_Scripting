@@ -57,10 +57,7 @@ public class Turret10 : MonoBehaviour
 
             ammo--;
         }
-        else if(Input.GetButtonDown(shoot) && ammo == 0)
-        {
-            NoShoot.Play();
-        }
+        else if(Input.GetButtonDown(shoot) && ammo == 0) NoShoot.Play();
         t += Time.deltaTime;
     }
     public void Charge(float load)
