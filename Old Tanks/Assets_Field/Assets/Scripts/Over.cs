@@ -12,6 +12,10 @@ public class Over : MonoBehaviour
         Over.GameOverStatic = GameOverText;
         Over.GameOverStatic.gameObject.SetActive(false);
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
     public static void show()
     {
         Over.GameOverStatic.gameObject.SetActive(true);
