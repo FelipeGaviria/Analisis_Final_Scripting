@@ -15,7 +15,7 @@ public class LoadAmmo : MonoBehaviour
     {
         transform.Rotate(new Vector3(0, 0, 360) * Time.deltaTime); ///Rotator
     }
-    void OnCollisionEnter(Collision collision)
+     void OnCollisionEnter(Collision collision)
     {
         GameObject target = collision.gameObject;
         if (target.CompareTag("Player"))

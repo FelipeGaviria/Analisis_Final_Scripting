@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class DashCode : MonoBehaviour
 {
+
     [SerializeField] float DashForce = 5000, cooldown = 5f;
     [SerializeField] public string Jump = "Jump";
     Rigidbody rb;
     float t = 0;
+
+    // Update is called once per frame
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         t = cooldown;
     }
+
+    // Update is called once per frame
     void Update()
     {
         Dash();
