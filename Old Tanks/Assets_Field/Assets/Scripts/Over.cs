@@ -6,17 +6,10 @@ public class Over : MonoBehaviour
 {
     public GameObject GameOverText;
     public static GameObject GameOverStatic;
-
     void Start()
     {
         Over.GameOverStatic = GameOverText;
         Over.GameOverStatic.gameObject.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
     public static void show()
     {
