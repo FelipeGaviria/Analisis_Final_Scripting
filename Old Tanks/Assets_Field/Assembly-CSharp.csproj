@@ -68,7 +68,7 @@
     <Compile Include="Assets\Scripts\DashCode.cs" />
     <Compile Include="Assets\Scripts\HealthUp.cs" />
     <Compile Include="Assets\Scripts\LoadAmmo.cs" />
-    <Compile Include="Assets\Scripts\Motor10.cs" />
+    <Compile Include="Assets\Scripts\Motor.cs" />
     <Compile Include="Assets\Scripts\Over.cs" />
     <Compile Include="Assets\Scripts\Ovwer.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />

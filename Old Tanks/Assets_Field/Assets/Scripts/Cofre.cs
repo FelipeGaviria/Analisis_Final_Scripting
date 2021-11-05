@@ -5,7 +5,6 @@ using UnityEngine.VFX;
 
 public class Cofre : MonoBehaviour
 {
-
     [SerializeField] float health = 50;
     public GameObject[] randomObject;
     public Transform[] objectLocation;
@@ -20,7 +19,6 @@ public class Cofre : MonoBehaviour
         collider = GetComponent < Collider>();
         renderer = GetComponent<Renderer>();
     }
-
     public void Romper (float damage)
     {
         health -= damage + 15;

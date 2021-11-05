@@ -4,17 +4,8 @@ using UnityEngine;
 
 public class Ovwer : MonoBehaviour
 {
-    //public GameObject GameOverText;
-    //public static GameObject GameOverStatic;
-
     [SerializeField] public GameObject GanoVerde;
     [SerializeField] public GameObject GanoRojo;
-
-    //void Start()
-    //{
-    //    Ovwer.GameOverStatic = GameOverText;
-    //    Ovwer.GameOverStatic.gameObject.SetActive(false);
-    //}
    
     public void show(int player)
     {
@@ -26,6 +17,5 @@ public class Ovwer : MonoBehaviour
         {
             GanoVerde.SetActive(true);
         }
-        
     }
 }

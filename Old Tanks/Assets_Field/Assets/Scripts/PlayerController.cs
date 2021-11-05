@@ -10,13 +10,11 @@ public class PlayerController : MonoBehaviour
     Ovwer gameover;
    
     [SerializeField] int state = 0;  //0 = Normal //1 = Stun //2 = Root//3 = Blind//
-    Motor10 motor;
+    Motor motor;
     Turret10[] turrets;
     [SerializeField] float armor = 20;
 
     public AudioSource Explaudio;
-
-    //float HealAmplifier = 1f;
 
     [SerializeField] Slider healthBar;
     
@@ -40,16 +38,12 @@ public class PlayerController : MonoBehaviour
         healthBar.value = health;
     }
     void Start() {
-        motor = GetComponent<Motor10>();
+        motor = GetComponent<Motor>();
         turrets = GetComponentsInChildren<Turret10>();
         gameover = FindObjectOfType<Ovwer>();
-
-
     }
 
     void Update() {
-        
-
         if (state == 0)
         {
             motor.Rotate();
@@ -63,7 +57,6 @@ public class PlayerController : MonoBehaviour
                 turrets[i].Shoot();
             }
         } 
-        
         
        /* else if (state ==1) { }
         else if (state == 2)
@@ -81,6 +74,5 @@ public class PlayerController : MonoBehaviour
             turret.Rotate();
         }*/
     }
-   
 }
 
